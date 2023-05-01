@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Lobster&display=swap');
+@import url('https://fonts.cdnfonts.com/css/summer-square');
+@import url('https://fonts.cdnfonts.com/css/tikiisland');
+@import url('https://fonts.cdnfonts.com/css/tropical-vibe');
+
+.top {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+body {
+  color: #e8bec6;
+  text-align: center;
+  background: rgb(7,93,189);
+background: linear-gradient(180deg, rgba(7,93,189,1) 0%, rgba(28,182,247,1) 72%, rgba(100,229,255,1) 100%);
+  font-family: "Edu NSW ACT Foundation";
+}
+
+h1 {
+  font-family: "Lobster";
+  text-shadow: -3px 3px 0px #ca5a39,
+    -6px 6px 0px #a42908;
+  margin-bottom: 0px;
+  font-size: 72px;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-style: italic;
+  font-size: 40px;
+}
+
+.main {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+img {
+  width: 100%;
+  border: 4px solid #e8bec6;
+  display: block;
+}
+
+footer {
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+footer .beach {
+  height: 40px;
+  width: 100%;
+  background: #fff5e0;
+}
+
+footer .sea {
+  height: 40px;
+  width: 100%;
+  background: rgb(7,93,189);
+background: linear-gradient(180deg, rgba(7,93,189,1) 0%, rgba(28,182,247,1) 72%, rgba(100,229,255,1) 100%);
+}
+
+footer .sun {
+  height: 50px;
+  width: 100px;
+  margin-right: 5%;
+  background: #fff475;
+  border-radius: 50px 50px 0 0;
+}
+
+.main a {
+  font-size: 2em;
+  color: white;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.main .info {
+  display:  flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #fff475;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 324px) {
+  .main .info {
+    font-size: 1.5em;
+  }
+
+  .main a {
+    font-size: 1.8em;
+  }
+}
+
+.sun a {
+  color: rgba(7,93,189,1);
+  text-decoration: none;
+  text-align: center;
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.sun a:hover {
+  color: black;
+}
+
+.main {
+  margin-bottom: 150px;
+}
+
+.main p {
+  font-size: 2em;
+  color: white;
+}
+
+.vaca, .what-main a, .info-main a, .tickets-main a {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #e8bec6;
+  margin-left: 0px;
+}
+
+.info-main a {
+  color: #ffebee;
+}
+
+.tix {
+  display: block;
+  text-shadow: 0px 0px 4px #fff475;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 9vw;
+  }
+
+  .subtitle {
+    font-size: 5vw;
+  }
+
+  footer .beach {
+    height: 20px;
+  }
+
+  footer .sea {
+    height: 20px;
+  }
+}
+
+ul {
+  text-align: left;
+}
+
+.what-main {
+  font-size: 1.5em;
+  color: white;
+  margin-bottom: 150px;
+  max-width: 850px;
+  margin: 0 auto 150px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.gallery > div {
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.col > div {
+  padding: 5px;
+}
+
+.gallery img {
+  border: 4px solid #fff475;
+  box-sizing: border-box;
+}
+
+.key {
+  border: 5px solid #fff475;
+  background: #fff5e0;
+  color: rgb(7,93,189);
+  margin: 0 auto;
+  max-width: 400px;
+  padding-bottom: 20px;
+}
+
+.subtitle span {
+  font-weight: bold;
+}
+
+.info-main {
+  color: white;
+  font-size: 1.6em;
+  max-width: 800px;
+  margin: 0 auto 150px;
+}
+
+.info-main p:first-child {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.info-main img {
+  width: 100%;
+  border: 3px solid #e8bec6;
+  box-sizing: border-box;
+}
+
+table {
+  text-align: center;
+  width: 100%;
+  font-size: 1.2em;
+  background: rgb(7,93,189);
+  border: 3px solid #e8bec6;
+  border-collapse: collapse;
+}
+
+tr {
+  border-top: 2px solid #e8bec6;
+}
+
+tr:nth-child(even) {
+  background: darkblue;
+}
+
+tr:first-child {
+  border-top: none;
+}
+
+td {
+  padding: 10px;
+}
+
+td:nth-child(2) {
+  border-left: 2px solid #e8bec6;
+}
+
+td p:first-child {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 0px;
+}
+
+td p:nth-child(2) {
+  font-size: .8em;
+  margin-top: 10px;
+}
+
+td a {
+  color: white;
+}
+
+.schedule-main {
+  color: white;
+  font-size: 1.6em;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.schedule-main > p:first-child {
+  margin-top: -10px;
+}
+
+@media (max-width: 300px) {
+  body {
+    font-size: .7em;
+  }
+}
+
+.schedule-main, .drinks-main, .karaoke-main {
+  margin-bottom: 150px;
+}
+
+.drinks-main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 20px auto 150px;
+  justify-content: center;
+}
+
+.drinks-main div {
+  margin: 10px;
+  width: 100%;
+  max-width: 300px;
+  font-size: 1.7em;
+  padding-bottom: 30px;
+}
+
+.drinks-main > div > h2 {
+  margin-bottom: 0px;
+}
+
+.sub-sub {
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.drinks-main div ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.hh {
+  border: 5px solid #fff475;
+  background: #fff5e0;
+  color: rgb(7,93,189);
+}
+
+.an {
+  border: 5px solid #e8bec6;
+  background: black;
+}
+
+.main {
+  margin-bottom: 150px;
+}
+
+.karaoke-main, .tickets-main {
+  max-width: 800px;
+  margin: 0px auto 150px;
+}
+
+.karaoke-main p, .tickets-main p {
+  font-size: 2em;
+  color: white;
+}
+
+.karaoke-main a {
+  color: #fff5e0;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.btw {
+  max-width: 800px;
+  margin: 10px auto;
+  font-size: 2em;
+  color: white;
+}
+
+.addy {
+  list-style-type: none;
+  opacity: .8;
+}
+
+.faq {
+  display: flex;
+  align-items: center;
+  min-height: 250px;
+  background: #a42908;
+  border: 4px solid #fff5e0;
+}
+
+.side-title {
+  color: #fff5e0;
+  font-weight: bold;
+  flex: 0 0 40px;
+  min-width: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-title > span {
+  font-size: 1.5em;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  padding-bottom: 5px;
+}
+
+.links {
+  padding-right: 10px;
+}
+
+@media (max-height: 750px) {
+  .links {
+    font-size: .8em
+  }
+}
