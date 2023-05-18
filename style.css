@@ -278,6 +278,7 @@ td a {
 
 .schedule-main > p:first-child {
   margin-top: -10px;
+  font-size: 1.2em;
 }
 
 @media (max-width: 300px) {
